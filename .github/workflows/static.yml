@@ -24,7 +24,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - run: |
-          rm -rf .vscode/ .gitignore src/ README.md .github/
+          rm -rf .vscode/ .gitignore README.md .github/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
